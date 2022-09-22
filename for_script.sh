@@ -6,7 +6,7 @@ echo "$item element"
 done
 echo
 
-IFS=$"\n"
+IFS=$'\n'
 file="aboba.txt"
 for str in `cat $file`
 do
